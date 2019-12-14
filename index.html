@@ -7,5 +7,35 @@
     <link href="styles/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <h1>Spongebob Meme Maker</h1>
+
+    <div class="input-form">
+      <!-- This div holds the two text boxes -->
+      <form>
+        <h2>
+          Top text: 
+        </h2>
+        <input type="text" value="Top text" id="top-text-input">
+      </form>
+      <form>
+        <h2>
+        Bottom text:
+        </h2>
+        <input type="text" value="Bottom text" id="bottom-text-input">
+      </form>
+    </div>
+
+    <div class="meme">
+      <!-- This holds the actively edited image -->
+      <h2 id="top-text">
+      </h2>
+      <br>
+      <!-- <img id="meme-img" src="images/mocking.jpg"> -->
+      <br>
+      <h2 id="bottom-text">
+      </h2>
+    </div>
+    <script src="scripts/meme.js" type="text/javascript"></script>
+    <script src="scripts/displayText.js" type="text/javascript"></script>
   </body>
 </html>

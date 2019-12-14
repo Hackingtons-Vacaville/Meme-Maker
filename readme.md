@@ -5,6 +5,7 @@ javascript, css, and html.
 
 
 ## TODO:
-* Design website for single meme creation
+* Scale meme div to background image size or use an image to fill the div.
+* Do not capture special keystrokes such as 'backspace' and 'shift'
 * Add meme selector on index
 * Add additional memes
